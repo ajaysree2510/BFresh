@@ -1,0 +1,103 @@
+body {
+   
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 0px 0;
+	color:
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    
+    min-height: 100vh;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+    margin-top: 80px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container{
+	top:100px;
+}
+
+.col-md-4{
+    
+    width: 20%;
+}
+ h2.page-description {
+    text-align: left;
+    margin: 25px 0px;
+    color: #888;
+}
+
+.tz-gallery {
+    padding: 0px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+nav{
+	 background-color: #689;
+	border-bottom: 3px solid black;
+}
+
+.navbar-brand
+{
+    font-family: cursive;
+    font-size: 25px;
+    font-style: italic;
+}
+.navbar{
+	    padding: 10px 1rem;
+}
+
+.col-md-4{
+    width: 100%;
+}
+
+
+.first, .second, .third{
+    
+    margin:80px 40px;
+}
+
+.para{
+    text-indent: 40px;
+    margin:20px 0;
+}

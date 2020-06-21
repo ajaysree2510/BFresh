@@ -1,0 +1,392 @@
+
+html, body{
+	margin:0px;
+	padding:0px;
+}
+nav
+{
+    background-color: #689;
+    border-bottom: 3px solid black;
+}
+.navbar-brand
+{
+    font-family: cursive;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.navbar{
+	    padding: 10px 1rem;
+}
+h1{ color: black;}
+
+.card {
+  height: 100%;
+}
+
+
+
+
+
+.display-3 {
+    font-size: 4.0rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.bd-example{
+    position: relative;
+    margin: 5rem 0px 0px;
+    border: solid #f7f7f9;
+    padding:2px;
+    
+}
+
+
+.carousel-item img
+{
+    max-height: 30em;
+}
+
+.carousel-item h1{
+     position: relative;
+	width: 100%;
+	max-width: 100%;
+    background-color: bisque;
+    min-height: 7em;
+    max-height: 30em;
+}
+
+#about{
+	padding:40px;
+	
+}
+
+.section-title{
+	padding:35px;
+}
+
+/* CSS for The Process section
+
+/* ==============================================
+Workprocess
+=============================================== */
+.workprocess > div {
+	background: rgba(255,255,255,.9);
+}
+.workprocess .container > .row > div, .workprocess .container-fluid > div {
+	padding: 0;
+}
+.workprocess .block {
+	text-align: center;
+}
+.workprocess .block h3 {
+	color: #333;
+    font-size: 20px;
+}
+.workprocess .block p {
+    font-size: 15px;
+    color: #666;
+}
+.workprocess .block h3, .workprocess .block p {
+	padding: 0 20px;
+    margin: 15px 0;
+    text-transform:uppercase;
+}
+
+.workprocess .icon {
+	position: relative;
+}
+.workprocess .icon > div {
+	text-align: center;
+	height: 80px;
+	padding: 38px 0;
+}
+.workprocess .icon i {
+	font-size: 40px;
+	line-height: 80px;
+	width: 80px;
+	height: 80px;
+	background: #222;
+	color: #FFF;
+	border-radius: 50%;
+	position: relative;
+}
+
+.eff {
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/* ==============================================
+Workprocess
+=============================================== */
+/* .workprocess .block i, .workprocess .block:hover i, .workprocess .block h3, .workprocess .block:hover h3 {
+ .eff;
+}
+.workprocess .block:hover i {
+ background:@color;
+	color: #222;
+}
+.workprocess .container .icon:before, .workprocess .container-fluid .icon:before {
+ background:@color;
+} */
+
+/*------------------------------------------------*/
+.workprocess .icon:hover .fas {
+  color: #7cc242 !important;
+}
+
+.workprocess .icon:hover .fas {
+  color: #7cc242 !important;
+}
+
+/* BIG BLOCK */
+
+.big_block {
+	    padding: 0 0;
+    margin: 0 5%;
+}
+.big_block p {
+  line-height: 1.75em;
+}
+
+section.big_block {
+	  padding-top: 20px;
+	}
+
+
+.fa-exclamation-triangle {
+  color: #FFAF02;
+}
+.fa-check {
+  color: #3C763D;
+}
+
+.big_block .container h2{
+    margin-bottom: 3.5rem;
+    font-size: 3rem;
+}
+
+
+
+/* .==============================================
+Large Desktop Screen
+=============================================== */
+@media screen and (min-width:1200px) {
+.workprocess .container-fluid .icon:before {
+	content: '';
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	background: #222;
+}
+.workprocess .container-fluid .icon.first::before {
+	left: 50%;
+	width: 50%;
+}
+.workprocess .container-fluid .icon.last::before {
+	width: 50%;
+}
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+    margin: 0px 100px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+}
+
+.row:after, .roe:before
+{
+    display: block;
+    content: " ";
+}
+
+.row:after{clear: both;}
+
+.block:hover{
+    color: #666;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-bottom: 5rem;
+
+
+}
+.reach{
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+    flex: 0 1 49%;
+    height: 20rem;
+   
+}
+
+.mapping{
+    position: relative;
+    display: block;
+    margin:20px;
+    top: -150px;
+    left: 150px;
+}
+
+.quote{
+      
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+    flex: 0 1 49%;
+    height: 20rem;
+     
+}
+
+.card-img-top{
+    height: 100%;
+}
+
+.quote row{
+    margin: 10px;
+    padding: 50px;
+} 
+
+.form-control{
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+#services{
+    margin:50px 100px 80px 100px;
+}
+
+.carousel-item p{
+    position: absolute;
+    color: white;
+    z-index: 100;
+    font-size: 50px;
+    width: 200px;
+    display: block;
+    text-align: justify;
+}
+
+#process{
+    margin: 50px;
+}
+
+.nav-link{
+    
+    transition-duration: 1s;
+}
+
+.titles{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.textbox{
+    width: 80%;
+}
+
+
+.banner p{
+     font-size: 29px;
+    position: absolute;
+    text-align: center;
+    left: 150px;
+    top: 150px;
+    width: 80%;
+}
+/* @media (max-width:420px){
+    .reach{
+        width: 98%;
+        height: 27em;   
+        overflow: hidden;
+    }
+    .mapping{
+        top: 10px;
+        left: -7%;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .quote{
+        margin: 15px -10px;
+        width: 98%;
+    }
+	
+	.banner p{
+     font-size: 20px;
+    position: absolute;
+    text-align: center;
+    left: 35px;
+    top: 85px;
+    width: 80%;
+}
+
+	#textBanner{
+		font-size:30px;
+	}
+}
+ */
+@media (max-width:770px){
+    
+    .card img{  
+        height: 50%;
+    }
+    
+    .mapping{
+        top: 0px;
+        left: 20px;
+    }
+    
+    .reach{
+        height: 25em;
+        margin-bottom: 2rem;
+    }
+    
+	.banner p{
+	top:40px;
+	left:50px;
+	}
+    .quote{
+        height: 25em;
+        padding: 30px 10px;
+    }
+    
+    .form-control{
+        margin: 20px 0px }
+
+
+    .contacts{
+        flex-direction: column;
+    }
+}
+
+footer{
+	padding:20px;
+}
